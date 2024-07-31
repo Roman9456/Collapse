@@ -45,5 +45,5 @@ deploy_script:
   - cd gh-pages
   - git add .
   - git commit -m "Deploy to GitHub Pages"
-  - git push origin gh-pages
+  - git push --force origin gh-pages
   - echo "Deployment complete."
